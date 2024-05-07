@@ -11,7 +11,7 @@ import { NextDays } from '../../components/NextDays';
 export function Dashboard() {
   const [data, setData] = useState({});
   const [isLoading, setIsLoading] = useState(true);
-  const [city, setCity] = useState(JSON.parse(localStorage.getItem('@typewheather:city')));
+  const [city, setCity] = useState(JSON.parse(localStorage.getItem('@typeweather:city')));
 
   useEffect(() => {
     setIsLoading(true);
