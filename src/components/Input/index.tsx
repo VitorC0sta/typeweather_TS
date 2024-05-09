@@ -1,6 +1,5 @@
 import { InputHTMLAttributes } from 'react';
 import { Spin } from '../Spin';
-import { extend } from 'dayjs';
 
 interface Props extends InputHTMLAttributes<HTMLInputElement> {
   isLoading?: boolean;
